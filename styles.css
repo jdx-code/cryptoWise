@@ -4,13 +4,13 @@
 :root.light {
 	--color-bg: #ffffff;
 	--color-fg: #000000;
-	--card-bg-color: #fafafa;
+	--main-content-bg-color: #fafafa;
     --container-color: #9ef;
 }
 :root.dark {
 	--color-bg: #263238;
 	--color-fg: #ffffff;
-	--card-bg-color: #363636;    
+	--main-content-bg-color: #363636;    
     --container-color: #555;
 }
 *{
@@ -30,7 +30,7 @@ body, thead {
 }
 
 table tr td {
-	background-color: var(--card-bg-color) !important;    
+	background-color: var(--main-content-bg-color) !important;    
 }
 
 nav{
