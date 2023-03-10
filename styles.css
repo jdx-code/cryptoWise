@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300');
+
+:root,
+:root.light {
+	--color-bg: #ffffff;
+	--color-fg: #000000;
+	--card-bg-color: #fafafa;
+    --border-color: navy;
+    --container-color: #9ef;
+}
+:root.dark {
+	--color-bg: #263238;
+	--color-fg: #ffffff;
+	--card-bg-color: #363636;
+    --border-color: gray;
+    --container-color: #f99;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html, body{
+    width: 100vw;
+    height: 100vh;    
+    position: relative;
+    font-family: 'Noto Sans TC', sans-serif;  
+}
+body, thead {
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+}
+
+table tr td {
+	background-color: var(--card-bg-color) !important;    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+}
+nav a{
+    padding: 0 10px;
+    text-decoration: none; 
+    color: var(--color-fg);   
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: linear-gradient(.25turn, #9099e5, 50%, #900090);
+    height: 100px;
+    font-size: larger;     
+}
+.container{    
+    width: 70%;    
+    margin: 0 auto;
+    position:relative;
+    top: -55px;
+    background-color: var(--container-color);
+}
+
+table {    
+    display: flex;
+    flex-direction: column;  
+}
+
+tr>td{
+    background-color: rgb(211, 238, 238);    
+}
+
+td, th{
+    width: 200px;
+    height: 50px;
+    text-align: center;        
+}
+
+
