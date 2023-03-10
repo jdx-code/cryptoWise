@@ -5,15 +5,13 @@
 	--color-bg: #ffffff;
 	--color-fg: #000000;
 	--card-bg-color: #fafafa;
-    --border-color: navy;
     --container-color: #9ef;
 }
 :root.dark {
 	--color-bg: #263238;
 	--color-fg: #ffffff;
-	--card-bg-color: #363636;
-    --border-color: gray;
-    --container-color: #f99;
+	--card-bg-color: #363636;    
+    --container-color: #555;
 }
 *{
     margin: 0;
